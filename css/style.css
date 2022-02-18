@@ -78,3 +78,7 @@ header {
 .header__logo {
   height: 80px;
 }
+
+.hero ::before {
+  background-image: ;
+}
