@@ -87,6 +87,6 @@ header {
   height: 80px;
 }
 
-.hero ::before {
-  background-image: url(./img/hero_bg.jpg);
+.hero ::before{
+  background: url(/img/hero_bg.jpg);
 }
