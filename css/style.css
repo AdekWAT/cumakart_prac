@@ -87,6 +87,14 @@ header {
   height: 80px;
 }
 
-.hero ::before{
-  background: url(/img/hero_bg.jpg);
+.hero:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 900px;
+  background: url(/img/hero_bg.jpg) 50% 0 no-repeat;
 }
