@@ -87,6 +87,6 @@ header {
   height: 80px;
 }
 
-.header__bot{
-
+.hero ::before{
+  background: url(/img/hero_bg.jpg);
 }
