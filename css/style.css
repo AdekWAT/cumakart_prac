@@ -17,6 +17,10 @@ header {
   display: grid;
 }
 
+.content {
+  color: white;
+}
+
 
 .header__top {
   display: grid;
@@ -86,7 +90,6 @@ header {
 .header__logo {
   height: 80px;
 }
-
 
 .index__h1{
   font-family: "Exo 2",sans-serif;
