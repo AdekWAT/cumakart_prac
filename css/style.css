@@ -17,6 +17,10 @@ header {
   display: grid;
 }
 
+.content {
+  color: white;
+}
+
 
 .header__top {
   display: grid;
@@ -85,6 +89,13 @@ header {
 
 .header__logo {
   height: 80px;
+}
+
+.hero {
+  height: 100vh;
+  min-height: 830px;
+  display: table;
+  width: 100%;
 }
 
 .hero:before{
