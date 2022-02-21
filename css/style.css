@@ -400,3 +400,21 @@ header {
   border-radius: 3px;
   text-decoration: none;
 }
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  border-radius: 50px;
+  transition: 1s;
+  background-image: linear-gradient( to right, #d24741, #e14e53, #e2373f );
+}
+
+.bn632-hover:hover{
+  border: solid 1px white;
+}
