@@ -59,15 +59,22 @@
                     </h1>
                     <p>Только современные, безопасные и быстрые карты — получайте удовольствие от езды
                         на крытом картодроме Lonato картинг в Москве!</p>
-                    <button class="open-modal" data-target="modal-1">OPEN MODAL WINDOW 2</button>
+                    <button class="open-modal" data-target="modal-1">Отправить заявку</button>
                     <div id="modal-1" class="modal-window">
-                        <h2>Отправка заявки</h2>
+                        <div class="modal-window__cross">
+                            <h2>Отправка заявки</h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cross" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </div>
                         <form action="./mail.php" method="post">
                             <input type="text" name="FIO" id="FIO" placeholder="ФИО">
                             <br>
                             <input type="tel" name="NUMBER" id="NUMBER" placeholder="+7*******">
+                            <input type="submit" value="Отправить" class="modal-btn modal-hide">
                         </form>
-                        <button class="modal-btn modal-hide">Close</button>
                     </div>
                     <div class="modal-fader"></div>
                 </div>
