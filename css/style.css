@@ -327,8 +327,9 @@ header {
   z-index: 1;
   background: rgba(0,0,0,0.8);
 }
+
 .modal-fader.active {
-  display: block;
+  display: grid;
 }
 
 .modal-window {
@@ -336,19 +337,30 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 99999;
+  z-index:2;
   background: #fff;
   padding: 20px;
   border-radius: 5px;
-  font-family: sans-serif;
   top: 50px;
 }
 .modal-window.active {
+  color: black;
   display: grid;
-  grid-template-columns: 360px;
-  grid-template-rows: 30px 30px 30px;
+  width: 500px;
+  height: 500px;
+  grid-template-rows: 20px 20px;
+  grid-gap: 30px;
   
 }
+
+.cross{
+  width: 20px;
+}
+.modal-window__cross{
+  display: flex;
+  justify-content: space-between;
+}
+
 .modal-window h1,
 .modal-window h2,
 .modal-window h3,
