@@ -10,7 +10,7 @@
 body {
   background-color: #202125;
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 
 header {
@@ -36,7 +36,7 @@ header {
   padding-right: 50px;
 }
 
-.header__bot{
+.header__bot {
   padding-left: 50px;
   padding-right: 50px;
   border-bottom: solid 1px #666870;
@@ -83,7 +83,7 @@ header {
 
 .header__top a,
 .header__phone a {
-  
+
   text-decoration: none;
   color: #000
 }
@@ -92,8 +92,8 @@ header {
   height: 80px;
 }
 
-.index__h1{
-  font-family: "Exo 2",sans-serif;
+.index__h1 {
+  font-family: "Exo 2", sans-serif;
   color: #f00;
   font-size: 72px;
   text-align: center;
@@ -107,7 +107,9 @@ header {
   min-height: 830px;
 }
 
-.hero:before{
+.hero:before {
+  justify-content: center;
+  align-content: center;
   content: "";
   display: block;
   position: absolute;
@@ -121,8 +123,8 @@ header {
 
 .index__BlockWithPic {
   display: grid;
-align-content: center;
-justify-content: center;
+  align-content: center;
+  justify-content: center;
 }
 
 
@@ -328,7 +330,7 @@ justify-content: center;
   bottom: 0;
   width: 100%;
   z-index: 1;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .modal-fader.active {
@@ -340,12 +342,13 @@ justify-content: center;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  z-index:2;
+  z-index: 2;
   background: #fff;
   padding: 20px;
   border-radius: 5px;
   top: 50px;
 }
+
 .modal-window.active {
   color: black;
   display: grid;
@@ -353,13 +356,14 @@ justify-content: center;
   height: 500px;
   grid-template-rows: 20px 20px;
   grid-gap: 30px;
-  
+
 }
 
-.cross{
+.cross {
   width: 20px;
 }
-.modal-window__cross{
+
+.modal-window__cross {
   display: flex;
   justify-content: space-between;
 }
