@@ -228,6 +228,9 @@ header {
   color: white;
 }
 
+.content{
+  display: grid;
+}
 
 
 
