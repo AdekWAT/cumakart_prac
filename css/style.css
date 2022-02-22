@@ -144,7 +144,33 @@ header {
   margin-bottom: 66px;
 }
 
+.index__plitka{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 400px) );
+  grid-gap: 50px;
 
+}
+
+.index__PlitkaFirst {
+  
+  background-image: url(/img/pic.jpg);
+}
+.index__PlitkaSecond {
+  background-image: url(/img/pic.jpg);
+}
+.index__PlitkaThird {
+  background-image: url(/img/pic.jpg);
+}
+.index__PlitkaFifth {
+  background-image: url(/img/pic.jpg);
+}
+
+.index__PlitkaFirst, .index__PlitkaSecond, .index__PlitkaThird, .index__PlitkaFifth  {
+  height: 400px;
+  width: 400px;
+  justify-self: center;
+}
 
 
 
