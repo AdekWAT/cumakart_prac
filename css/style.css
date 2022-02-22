@@ -63,6 +63,7 @@ header {
   color: white;
   font-size: 24px;
   font-weight: bold;
+  
 }
 
 .header__bot li a:hover {
@@ -121,7 +122,7 @@ header {
   left: 0;
   width: 100%;
   z-index: -1;
-  height: 900px;
+  height: 820px;
   background: url(/img/hero_bg.jpg) 50% 0 no-repeat;
 }
 
@@ -437,7 +438,6 @@ header {
   text-align:center;
   border: none;
   border-radius: 50px;
-  transition: 1s;
   background-image: linear-gradient( to right, #d24741, #e14e53, #e2373f );
 }
 
