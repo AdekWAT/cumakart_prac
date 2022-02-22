@@ -232,6 +232,38 @@ header {
   display: grid;
 }
 
+.index__price {
+  display: grid;
+  width: 1500px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+  justify-self: center;
+}
+
+.index__price p{
+  font-size: 30px;
+}
+
+.index__PriceList {
+  margin-top: 100px;
+  display: grid;
+}
+.index__PriceH {
+  display: flex;
+  flex-direction: row;
+  font-size: 36px;
+  font-weight: 900;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.index__PriceHRed{
+  color: #d24741;
+}
+
+.index__PriceRub{
+  justify-self: end;
+}
 
 
 
