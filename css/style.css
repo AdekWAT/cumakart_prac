@@ -265,8 +265,39 @@ header {
   justify-self: end;
 }
 
+.trace{
+  margin-top: 100px;
+  display: grid;
+  justify-items: center;
+}
 
+.trace img{
+  max-width: 1500px;
+  border-radius: 5px;
+}
 
+.trace p{
+  font-size: 32px;
+  margin-top: 20px;
+  max-width: 1500px;
+  text-align: center;
+}
+
+.trace a{
+  margin-top: 20px;
+  font-size: 32px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.trace a:hover{
+  color: #d24741;
+  border: 1px solid #d24741;
+  transition: 0.5s;
+}
 
 
 
