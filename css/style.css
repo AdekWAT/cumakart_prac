@@ -285,7 +285,7 @@ header {
 
 .trace a{
   margin-top: 20px;
-  font-size: 32px;
+  font-size: 24px;
   border: 1px solid white;
   text-decoration: none;
   color: white;
@@ -299,7 +299,32 @@ header {
   transition: 0.5s;
 }
 
+footer{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid #66687050;
+}
 
+.fa {
+  padding: 20px;
+  font-size: 50px!important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-vk, .fa-instagram{
+  color: white;
+  width: 100px;
+}
+
+.fa-vk:hover, .fa-instagram:hover{
+  transition: 0.5s;
+  color: #d24741;
+}
 
 
 
