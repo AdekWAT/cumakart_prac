@@ -234,7 +234,7 @@ header {
 .index__price {
   display: grid;
   width: 1500px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-row-gap: 30px;
   justify-self: center;
 }
@@ -260,8 +260,17 @@ header {
   color: #d24741;
 }
 
-.index__PriceRub{
+.price__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.price__container .index__PriceRub{
   justify-self: end;
+}
+
+.index__price :nth-child(4n+1) {
+  background: #36373b;
 }
 
 .trace{
