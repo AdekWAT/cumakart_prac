@@ -112,6 +112,7 @@ header {
   justify-content: center;
   align-content: center;
   display: grid;
+  z-index: -1;
 }
 
 .hero:before {
