@@ -15,7 +15,6 @@ body {
 
 header {
   display: grid;
-  height: 90px;
 }
 
 .content {
@@ -236,8 +235,8 @@ header {
 .index__price {
   display: grid;
   width: 1500px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 30px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 15px;
   justify-self: center;
 }
 
@@ -262,8 +261,21 @@ header {
   color: #d24741;
 }
 
-.index__PriceRub{
+.price__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50px;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 50%);
+}
+
+.price__container .index__PriceRub{
   justify-self: end;
+}
+
+.index__price div:nth-child(2n+1) {
+  background: #36373b;
 }
 
 .trace{
