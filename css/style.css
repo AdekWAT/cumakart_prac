@@ -321,6 +321,60 @@ header {
   transition: 0.5s;
 }
 
+.title {
+  color: #d24741;
+  font-size: 25px;  
+}
+
+.school {
+  display: grid;
+}
+
+.school__title {
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.school__info {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.info__title {
+  color: #d24741;
+  font-size: 25px;
+}
+
+.school__pluses {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.pluses__title {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.pluses__info {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.school__dates {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.dates__title {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.dates__text {
+  width: 1500px;
+  margin: 0 auto;
+}
+
 footer{
   margin-top: 100px;
   display: flex;
