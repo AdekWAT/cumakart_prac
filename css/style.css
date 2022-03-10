@@ -174,7 +174,8 @@ header {
 
 .sections__wrap {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 370px);
+  justify-self: center;
   grid-gap: 7px;
 }
 
@@ -376,7 +377,7 @@ header {
 }
 
 footer{
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -402,8 +403,47 @@ footer{
   color: #d24741;
 }
 
+.sections__container{
+  display: grid;
+}
 
+.Modal__form {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 550px;
+  justify-self: center;
+  grid-template-rows: 60px 60px 50px;
+  grid-gap: 20px;
+}
 
+.Modal__p{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Modal__inputs {
+  background-color: #36373b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.modal-btn {
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 5px;
+  text-decoration: none;
+  background-image: linear-gradient( to right, #d24741, #e14e53, #e2373f );
+}
+
+.cross:hover{
+  color: #f00;
+  transition: 0.5s;
+}
 
 
 
@@ -605,17 +645,25 @@ footer{
   z-index: 2;
   background: #fff;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   top: 50px;
 }
 
 .modal-window.active {
-  color: black;
+  color: White;
   display: grid;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
   grid-template-rows: 20px 20px;
   grid-gap: 30px;
+  background-color: #202125;
+}
+
+.Modal__accept{
+  color: #FFF;
+  opacity: 50%;
+  margin-top: -20px;
+  text-decoration: none;
 
 }
 
@@ -624,8 +672,11 @@ footer{
 }
 
 .modal-window__cross {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto;
+  align-items: center;
 }
 
 .modal-window h1,
@@ -635,17 +686,10 @@ footer{
 .modal-window h5,
 .modal-window h6 {
   margin: 0;
+  font-size: 32px;
+  padding-left: 20px;
 }
 
-.modal-btn {
-  background: #36a5a5;
-  border: none;
-  color: #fff;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 3px;
-  text-decoration: none;
-}
 
 .bn632-hover {
   width: 160px;

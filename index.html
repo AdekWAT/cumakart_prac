@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
                         <li><a href="index.html">Главная</a></li>
                         <li><a href="school.html">Школа Юного пилота</a></li>
                         <li><a href="price.php">Цены</a></li>
-                        <li><a href="certificate.php">Сертификаты</a></li>
+                        <li><a href="certificate.html">Сертификаты</a></li>
                         <li><a href="trace.php">Трасса</a></li>
                         <li><a href="kart.php">Карты</a></li>
                         <li><a href="contact.php">Контакты</a></li>
@@ -60,33 +60,35 @@
                     <div class="index__BlockWithPic">
                         <div class="index__h1">
                             <h1>
-                                кама-карт
+                                Кама-карт
                             </h1>
                         </div>
                         <div class="index__p">
-                            <p>Только современные, безопасные и быстрые карты — получайте удовольствие от езды на крытом
-                                картодроме Lonato картинг в Москве!</p>
+                            <p>Соверменные, безопасные и быстрые карты. Получите удовольствие посетив нашу трассу и прокатившись на 
+                                картах в Чайковском.
+                            </p>
                         </div>
                         <button class="open-modal bn632-hover bn28" data-target="modal-1">Отправить заявку</button>
                         <div id="modal-1" class="modal-window">
                             <div class="modal-window__cross">
                                 <h2>Отправка заявки</h2>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cross" fill="none"
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cross modal-hide" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             </div>
-                            <form action="./mail.php" method="post">
-                                <input type="text" name="FIO" id="FIO" placeholder="ФИО">
-                                <br>
-                                <input type="tel" name="NUMBER" id="NUMBER" placeholder="+7*******">
-                                <input type="submit" value="Отправить" class="modal-btn modal-hide">
+                            <p class="Modal__p">Оставьте заявку на бронирование проката и мы свяжемся с Вами в ближайшее время!</p>
+                            <form action="./mail.php" method="post" class="Modal__form">
+                                <input type="text" name="FIO" id="FIO" placeholder="ФИО" class="Modal__inputs">
+                                <input type="tel" name="NUMBER" id="NUMBER" placeholder="+7*******" class="Modal__inputs">
+                                <input type="submit" value="Отправить" class="modal-btn modal-hide" >
                             </form>
+                            <a href="https://buh.ru/articles/documents/125833/" class="Modal__accept">Я ознакомлен и согласен с правилами обработки моих персональных данных</a>
                         </div>
                         <div class="modal-fader"></div>
                         <div class="index__p">
-                            <p>Бронируйте заезды заранее</p>
+                            <p>Прокат работает! Обязательна предварительная запись!</p>
                         </div>
                     </div>
                 </div>
@@ -96,16 +98,16 @@
                 <div class="sections__container">
                     <div class="sections__wrap">
                         <a href="" class="section" style="background: url(./img/pic.jpg);">
-                            <h3 class="section__title">Цены на прокат</h3>
+                            <p class="section__title">Цены на прокат</p>
                         </a>
-                        <a href="" class="section" style="background: url(./img/pic.jpg);">
-                            <h3 class="section__title">Цены на прокат</h3>
+                        <a href="" class="section" style="background: url(./img/School.jpg);">
+                            <p class="section__title">Школа Юного Пилота</p>
                         </a>
-                        <a href="" class="section" style="background: url(./img/pic.jpg);">
-                            <h3 class="section__title">Цены на прокат</h3>
+                        <a href="" class="section" style="background: url(./img/Cart.jpg);">
+                            <p class="section__title">Карты</p>
                         </a>
-                        <a href="" class="section" style="background: url(./img/pic.jpg);">
-                            <h3 class="section__title">Цены на прокат</h3>
+                        <a href="" class="section" style="background: url(./img/Certificate.jpg);">
+                            <p class="section__title">Сертификаты</p>
                         </a>
                     </div>
                 </div>
@@ -141,7 +143,8 @@
                             <div class="track__img">
                                 <img src="img/trace.png" alt="" class="index__tracepic">
                             </div>
-                            <p>Трасса картинка длиной около 200 м. На трассе можно проехать по длинным прямым участкам, а также по
+                            <p>Трасса картинка длиной около 200 м. На трассе можно проехать по длинным прямым участкам,
+                                а также по
                                 участкам со скоростными поворотами, медленными шпильками и S-ками</p>
                             <a href="trace.php">
                                 Подробнее о трассе
