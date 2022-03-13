@@ -424,6 +424,7 @@ footer {
   margin-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  color: white;
 }
 
 .Modal__inputs {
@@ -460,7 +461,24 @@ footer {
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
+  margin-bottom: 20px;
+}
 
+.trace__p{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trace__button{
+  display: grid;
+  justify-items: center;
+}
+
+.trace__button button{
+  width: 300px;
+  height: 80px;
+  font-size: 25px;
 }
 
 .trace__pic {
@@ -826,6 +844,7 @@ font-weight: bold;
   padding: 20px;
   border-radius: 10px;
   top: 150px;
+  justify-self: center;
 }
 
 .modal-window.active {
@@ -849,6 +868,7 @@ font-weight: bold;
 .cross {
   width: 20px;
   transition: 0.5s;
+  color: white;
 }
 
 .modal-window__cross {
@@ -868,6 +888,7 @@ font-weight: bold;
   margin: 0;
   font-size: 32px;
   padding-left: 20px;
+  color: white;
 }
 
 

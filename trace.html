@@ -65,11 +65,40 @@
                     <img src="img/Trace3.jpg" alt="" class="trace__pic">
                     <img src="img/trace.png" alt="" class="trace__pic">
                 </div>
-
+                <p class="trace__p">Трасса картинка длиной около 200 м. На трассе можно проехать по длинным прямым
+                    участкам,
+                    а также по
+                    участкам со скоростными поворотами, медленными шпильками и S-ками</p>
+                <div class="trace__button">
+                    <button class="open-modal bn632-hover bn28" data-target="modal-1">Отправить заявку на аренду
+                        трассы</button>
+                </div>
+                <div id="modal-1" class="modal-window">
+                    <div class="modal-window__cross">
+                        <h2>Отправка заявки</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cross modal-hide" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <p class="Modal__p">Оставьте заявку на аренду трассы и мы свяжемся с Вами в ближайшее
+                        время!</p>
+                    <form action="./mail.php" method="post" class="Modal__form">
+                        <input type="text" name="FIO" id="FIO" placeholder="ФИО" class="Modal__inputs">
+                        <input type="tel" name="NUMBER" id="NUMBER" placeholder="+7*******"
+                            class="Modal__inputs">
+                        <input type="submit" value="Отправить" class="modal-btn modal-hide">
+                    </form>
+                    <a href="https://buh.ru/articles/documents/125833/" class="Modal__accept">Я ознакомлен и
+                        согласен с правилами обработки моих персональных данных</a>
+                </div>
+                <div class="modal-fader"></div>
+                
             </div>
         </div>
     </main>
-    
+
     <footer>
         <a href="#" class="fa fa-vk"></a>
         <a href="#" class="fa fa-instagram"></a>
@@ -80,6 +109,7 @@
             disableButtonTooltip: 1
         });
     </script>
+    <script src="js/modal.js"></script>
 </body>
 
 </html>
