@@ -759,6 +759,43 @@ font-weight: bold;
   justify-self: center;
 }
 
+.karts{
+  text-align: center;
+  font-size: 28px;
+  
+}
+
+.kart1pic, .kart2pic{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  padding: 20px;
+}
+
+.kart1pic img, .kart2pic img{
+  width: 700px;
+  height: 510px;
+  border-radius: 20px;
+}
+
+.kart1 h2, .kart2 h2{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.kart1, .kart2{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  display: grid;
+}
+
+.kartpage__price{
+  justify-self: center!important;
+}
+
 @media only screen and (max-width: 1023px) {
   .sections__wrap {
     grid-template-columns: repeat(2, 1fr);
