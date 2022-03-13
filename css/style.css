@@ -732,6 +732,33 @@ font-weight: bold;
   background: #36373b;
 }
 
+.certificate{
+  display: grid;
+}
+
+.certificate__info{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.certificate__info a{
+  text-decoration: none;
+  color: #d24741;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.certificate__info a:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.certificate__img{
+  border-radius: 5px;
+  width: 70%;
+  justify-self: center;
+}
+
 @media only screen and (max-width: 1023px) {
   .sections__wrap {
     grid-template-columns: repeat(2, 1fr);
@@ -995,8 +1022,10 @@ font-weight: bold;
   border: none;
   border-radius: 50px;
   background-image: linear-gradient(to right, #d24741, #e14e53, #e2373f);
+  transition: 0.5s!important;
 }
 
 .bn632-hover:hover {
   border: solid 1px white;
+  transition: 0.5s!important;
 }

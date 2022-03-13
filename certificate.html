@@ -55,7 +55,38 @@
     <main>
         <div class="content">
             <div class="certificate">
-                
+                <div class="page__title">
+                    <h1>Сертификаты</h1>
+                </div>
+                <p class="certificate__info">
+                    Сертификаты имеют конкретную стоимость, соответствующую стоимости одного или нескольких заездов. Цены на заезды размещены на 
+                    <a href="price.html" class="price__link">данной странице</a>. Сертификат дает право на бесплатный заезд или несколько заездов.
+                </p>
+                <img src="img/Certificate.jpg" alt="certificate" class="certificate__img">
+                <div class="trace__button">
+                    <button class="open-modal bn632-hover bn28" data-target="modal-1">Отправить заявку на покупку сертификата </button>
+                </div>
+                <div id="modal-1" class="modal-window">
+                    <div class="modal-window__cross">
+                        <h2>Отправка заявки</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cross modal-hide" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <p class="Modal__p">Оставьте заявку на аренду трассы и мы свяжемся с Вами в ближайшее
+                        время!</p>
+                    <form action="./mail.php" method="post" class="Modal__form">
+                        <input type="text" name="FIO" id="FIO" placeholder="ФИО" class="Modal__inputs">
+                        <input type="tel" name="NUMBER" id="NUMBER" placeholder="+7*******"
+                            class="Modal__inputs">
+                        <input type="submit" value="Отправить" class="modal-btn modal-hide">
+                    </form>
+                    <a href="https://buh.ru/articles/documents/125833/" class="Modal__accept">Я ознакомлен и
+                        согласен с правилами обработки моих персональных данных</a>
+                </div>
+                <div class="modal-fader"></div>
             </div>
         </div>
     </main>
@@ -70,5 +101,6 @@
             disableButtonTooltip: 1
         });
     </script>    
+    <script src="js/modal.js"></script>
 </body>
 </html>
