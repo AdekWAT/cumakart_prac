@@ -74,12 +74,12 @@ main {
   color: white;
   font-size: 24px;
   font-weight: bold;
-
+  transition: 0.5s;
 }
 
 .header__bot li a:hover {
   transition: 0.5s;
-  color: #f00;
+  color: #d24741;
 }
 
 .header__svg {
@@ -154,46 +154,12 @@ main {
   font-size: 18px;
   margin-bottom: 66px;
 }
-
-.index__plitka {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
-  grid-gap: 50px;
-
-}
-
-.index__PlitkaFirst {
-
-  background-image: url(/img/pic.jpg);
-}
-
-.index__PlitkaSecond {
-  background-image: url(/img/pic.jpg);
-}
-
-.index__PlitkaThird {
-  background-image: url(/img/pic.jpg);
-}
-
-.index__PlitkaFifth {
-  background-image: url(/img/pic.jpg);
-}
-
-.index__PlitkaFirst,
-.index__PlitkaSecond,
-.index__PlitkaThird,
-.index__PlitkaFifth {
-  height: 400px;
-  width: 400px;
-  justify-self: center;
-}
-
 .sections__wrap {
   display: grid;
   grid-template-columns: repeat(4, 370px);
   justify-self: center;
   grid-gap: 7px;
+  transition: 0.4s;
 }
 
 .section:before {
@@ -205,6 +171,7 @@ main {
   left: 0;
   height: 100%;
   top: 0;
+  transition: 0.4s;
 }
 
 .section {
@@ -214,14 +181,17 @@ main {
   position: relative;
   box-shadow: 0 40px 90px 0 rgb(0, 0, 0 / 40%);
   filter: grayscale(100%);
+  transition: 0.4s;
 }
 
 .section:hover {
   filter: none;
+  transition: 0.4s;
 }
 
 .section:hover:after {
   content: none;
+  transition: 0.4s;
 }
 
 .section:after {
@@ -233,6 +203,7 @@ main {
   width: 100%;
   position: absolute;
   left: 0;
+  transition: 0.4s;
 }
 
 .section__title {
@@ -312,9 +283,7 @@ main {
 }
 
 .track__description img {
-  width: auto;
-  max-height: 600px;
-  border-radius: 5px;
+  width: 1500px;
 }
 
 .track__description p {
@@ -332,6 +301,7 @@ main {
   color: white;
   padding: 10px;
   border-radius: 20px;
+  transition: 0.5s;
 }
 
 .track__description a:hover {
@@ -428,6 +398,7 @@ footer {
 .fa-instagram {
   color: white;
   width: 100px;
+  transition: 0.5s;
 }
 
 .fa-vk:hover,
@@ -499,7 +470,7 @@ footer {
 
 .trace__pic {
   width: 700px;
-  height: 525px;
+  height: 400px;
 }
 
 .info__text,
@@ -508,6 +479,10 @@ footer {
   margin-bottom: 20px;
   font-size: 28px;
   text-align: center;
+}
+.track__img{
+  filter: grayscale(70%);
+  width: 1500px;
 }
 
 .info__text p {
@@ -627,6 +602,23 @@ hr {
 .contacts__mapgrid {
   border: 1px solid rgba(255, 255, 255, 0.3);
 
+}
+
+.contacts__number{
+  font-size: 28px;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.contacts__number p{
+  margin-bottom: 10px;
+}
+
+.contacts__number a{
+  color: white;
+text-decoration: none;
+font-weight: bold;
 }
 
 
@@ -856,6 +848,7 @@ hr {
 
 .cross {
   width: 20px;
+  transition: 0.5s;
 }
 
 .modal-window__cross {
