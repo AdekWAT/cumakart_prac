@@ -140,17 +140,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div></div>
-                                    <div class="admin__contacts">
-                                        <div class="contacts__tel">
-                                            <div class="tel__title">
-                                                <h3>Номер телефона:</h3>
-                                            </div>
-                                            <div class="tel__input">
-                                                <input type="tel" name="tel" id="">
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="admin__submit">
                                         <input type="submit" value="Сохранить">
                                     </div>
@@ -162,12 +151,17 @@
                 <div id="tabs-2">
                     <div class="adminpanel">
                         <div class="adminpanel__contacts">
-                            <div class="contacts__title">
-                                <h2>Контакты</h2>
+                            <div class="contacts__titleform">
+                                <h2>Контакты:</h2>
                             </div>
                             <form action="">
-                                <div class="contacts__inputs">
-                                    div.
+                                <div class="contacts__tel">
+                                    <div class="tel__title">
+                                        <h3>Номер телефона:</h3>
+                                    </div>
+                                    <div class="tel__input">
+                                        <input type="tel" name="tel" id="">
+                                    </div>
                                 </div>
                             </form>
                         </div>
