@@ -57,17 +57,17 @@
     <main>
         <div class="content">
             <div id="tabs">
+                <div class="tabs__title">
+                    <h1>Админ-панель</h1>
+                </div>
                 <ul>
                     <li><a href="#tabs-1">Настройка цен</a></li>
                     <li><a href="#tabs-2">Настройка контактов</a></li>
                 </ul>
                 <div id="tabs-1">
                     <div class="adminpanel">
-                        <div class="adminpanel__title">
-                            <h1>Админ-панель</h1>
-                        </div>
                         <div class="adminpanel__container">
-                            <div class="panel__price">
+                            <div class="adminpanel__price">
                                 <div class="price__title">
                                     <h2>Цены:</h2>
                                 </div>
@@ -151,13 +151,25 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="admin__submit">
+                                        <input type="submit" value="Сохранить">
+                                    </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="tabs-2">
-
+                    <div class="adminpanel">
+                        <div class="adminpanel__contacts">
+                            <div class="contacts__title">
+                                <h2>Контакты</h2>
+                            </div>
+                            <form action="">
+                                
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
