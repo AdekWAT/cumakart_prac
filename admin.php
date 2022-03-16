@@ -72,11 +72,11 @@
                                     <h2>Цены:</h2>
                                 </div>
                                 <form action="php/panel.php" method="POST">
-                                    <div class="admin__kart65">
-                                        <div class="admin__title">
+                                    <div class="price__karts">
+                                        <div class="karts__title">
                                             <h3>Цены на прокат:</h3>
                                         </div>
-                                        <div class="admin__kart65">
+                                        <div class="karts__kart65">
                                             <div class="kart65__title">
                                                 <h4>Прокат карта 6.5 л.с.:</h4>  
                                             </div>
@@ -90,7 +90,7 @@
                                                 <input type="text" name="price_kart_65_10" id="">
                                             </div>
                                         </div>
-                                        <div class="admin__kart9">
+                                        <div class="karts__kart9">
                                             <div class="kart9__title">
                                                 <h4>Прокат карта 9 л.с.:</h4>
                                             </div>
@@ -104,7 +104,7 @@
                                                 <input type="text" name="price_kart_9_10" id="">
                                             </div>
                                         </div>
-                                        <div class="kart__double">
+                                        <div class="karts__double">
                                             <div class="double__title">
                                                 <h4>Прокат двухместного карта:</h4>
                                             </div>
@@ -146,7 +146,7 @@
                                             <div class="tel__title">
                                                 <h3>Номер телефона:</h3>
                                             </div>
-                                            <div class="tel__form">
+                                            <div class="tel__input">
                                                 <input type="tel" name="tel" id="">
                                             </div>
                                         </div>
@@ -166,7 +166,9 @@
                                 <h2>Контакты</h2>
                             </div>
                             <form action="">
-                                
+                                <div class="contacts__inputs">
+                                    div.
+                                </div>
                             </form>
                         </div>
                     </div>
