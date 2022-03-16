@@ -47,36 +47,29 @@
             </div>
         </div>
     </header>
-
-
-
-
-
-
-
     <main>
         <div class="content">
             <div id="tabs">
+                <div class="tabs__title">
+                    <h1>Админ-панель</h1>
+                </div>
                 <ul>
                     <li><a href="#tabs-1">Настройка цен</a></li>
                     <li><a href="#tabs-2">Настройка контактов</a></li>
                 </ul>
                 <div id="tabs-1">
                     <div class="adminpanel">
-                        <div class="adminpanel__title">
-                            <h1>Админ-панель</h1>
-                        </div>
                         <div class="adminpanel__container">
-                            <div class="panel__price">
+                            <div class="adminpanel__price">
                                 <div class="price__title">
                                     <h2>Цены:</h2>
                                 </div>
                                 <form action="php/panel.php" method="POST">
-                                    <div class="admin__kart65">
-                                        <div class="admin__title">
+                                    <div class="price__karts">
+                                        <div class="karts__title">
                                             <h3>Цены на прокат:</h3>
                                         </div>
-                                        <div class="admin__kart65">
+                                        <div class="karts__kart65">
                                             <div class="kart65__title">
                                                 <h4>Прокат карта 6.5 л.с.:</h4>
                                             </div>
@@ -90,7 +83,7 @@
                                                 <input type="text" name="price_kart_65_10" id="">
                                             </div>
                                         </div>
-                                        <div class="admin__kart9">
+                                        <div class="karts__kart9">
                                             <div class="kart9__title">
                                                 <h4>Прокат карта 9 л.с.:</h4>
                                             </div>
@@ -104,7 +97,7 @@
                                                 <input type="text" name="price_kart_9_10" id="">
                                             </div>
                                         </div>
-                                        <div class="kart__double">
+                                        <div class="karts__double">
                                             <div class="double__title">
                                                 <h4>Прокат двухместного карта:</h4>
                                             </div>
@@ -140,16 +133,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div></div>
-                                    <div class="admin__contacts">
-                                        <div class="contacts__tel">
-                                            <div class="tel__title">
-                                                <h3>Номер телефона:</h3>
-                                            </div>
-                                            <div class="tel__form">
-                                                <input type="tel" name="tel" id="">
-                                            </div>
-                                        </div>
+                                    <input type="text" name="id__karts" value="1" style="display: none;">
+                                    <input type="text" name="id__contacts" value="" style="display: none;">
+                                    <div class="price__submit">
+                                        <input type="submit" value="Сохранить">
                                     </div>
                                 </form>
                             </div>
@@ -157,7 +144,36 @@
                     </div>
                 </div>
                 <div id="tabs-2">
-
+                    <div class="adminpanel">
+                        <div class="adminpanel__contacts">
+                            <div class="contacts__titleform">
+                                <h2>Контакты:</h2>
+                            </div>
+                            <form action="php/panel.php" method="POST">
+                                <div class="contacts__tel">
+                                    <div class="tel__title">
+                                        <h3>Номер телефона:</h3>
+                                    </div>
+                                    <div class="tel__input">
+                                        <input type="tel" name="tel" id="">
+                                    </div>
+                                </div>
+                                <div class="contacts__addr">
+                                    <div class="addr__title">
+                                        <h3>Адрес:</h3>
+                                    </div>
+                                    <div class="addr__input">
+                                        <input type="text" name="addr" id="">
+                                    </div>
+                                </div>
+                                <input type="text" name="id__contacts" value="2" style="display: none;">
+                                <input type="text" name="id__karts" value="" style="display: none;">
+                                <div class="contacts__submit">
+                                    <input type="submit" value="Сохранить">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
