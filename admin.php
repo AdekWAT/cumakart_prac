@@ -72,95 +72,45 @@
                                     <h2>Цены:</h2>
                                 </div>
                                 <form action="php/panel.php" method="POST">
-                                    <div class="admin__kart65">
-                                        <div class="admin__title">
-                                            <h3>Цены на прокат:</h3>
-                                        </div>
-                                        <div class="admin__kart65">
-                                            <div class="kart65__title">
-                                                <h4>Прокат карта 6.5 л.с.:</h4>  
-                                            </div>
-                                            <div class="kart65__5">
-                                                <span>5 минут</span>
-                                                <input type="text" name="price_kart_65_5" id="">
-                                            </div>
-                                            <br>
-                                            <div class="kart65__10">
-                                                <span>10 минут</span>
-                                                <input type="text" name="price_kart_65_10" id="">
-                                            </div>
-                                        </div>
-                                        <div class="admin__kart9">
-                                            <div class="kart9__title">
-                                                <h4>Прокат карта 9 л.с.:</h4>
-                                            </div>
-                                            <div class="kart9__5">
-                                                <span>5 минут</span>
-                                                <input type="text" name="price_kart_9_5" id="">
-                                            </div>
-                                            <br>
-                                            <div class="kart9__10">
-                                                <span>10 минут</span>
-                                                <input type="text" name="price_kart_9_10" id="">
-                                            </div>
-                                        </div>
-                                        <div class="kart__double">
-                                            <div class="double__title">
-                                                <h4>Прокат двухместного карта:</h4>
-                                            </div>
-                                            <div class="double__do14">
-                                                <div class="do14__title">
-                                                    <h4>- взрослый + ребенок (до 14 лет):</h4>
-                                                </div>
-                                                <div class="do14__5">
-                                                    <span>5 минут</span>
-                                                    <input type="text" name="price_kart_double_do14_5" id="">
-                                                </div>
-                                                <br>
-                                                <div class="do14__10">
-                                                    <span>10 минут</span>
-                                                    <input type="text" name="price_kart_double_do14_10" id="">
-                                                </div>
-                                            </div>
-                                            <div class="double__posle14">
-                                                <div class="posle14__title">
-                                                    <h4>- взрослый + взрослый (старше 14 лет):</h4>
-                                                </div>
-                                                <br>
-                                                <div class="posle14__5">
-                                                    <span>5 минут</span>
-                                                    <input type="text" name="price_kart_double_posle14_5" id="">
-                                                </div>
-                                                <br>
-                                                <div class="posle14__10">
-                                                    <span>10 минут</span>
-                                                    <input type="text" name="price_kart_double_posle14_10" id="">
-                                                </div>
-                                                <br>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="admin__contacts">
-                                        <div class="contacts__tel">
-                                            <div class="tel__title">
-                                                <h3>Номер телефона:</h3>
-                                            </div>
-                                            <div class="tel__form">
-                                                <input type="tel" name="tel" id="">
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <h3>Цены на прокат:</h3>
+                                    <h4>Прокат карта 6.5 л.с.:</h4>
+                                    <span>5 минут</span>
+                                    <input type="text" name="price_kart_65_5" id="">
                                     <br>
-                                    <div class="admin__submit">
-                                        <input type="submit" value="Сохранить">
-                                    </div>
+                                    <span>10 минут</span>
+                                    <input type="text" name="price_kart_65_10" id="">
+                                    <h4>Прокат карта 9 л.с.:</h4>
+                                    <span>5 минут</span>
+                                    <input type="text" name="price_kart_9_5" id="">
+                                    <br>
+                                    <span>10 минут</span>
+                                    <input type="text" name="price_kart_9_10" id="">
+                                    <h4>Прокат двухместного карта:</h4>
+                                    <h4>- взрослый + ребенок (до 14 лет):</h4>
+                                    <span>5 минут</span>
+                                    <input type="text" name="price_kart_double_do14_5" id="">
+                                    <br>
+                                    <span>10 минут</span>
+                                    <input type="text" name="price_kart_double_do14_10" id="">
+                                    <br>
+                                    <h4>- взрослый + взрослый (старше 14 лет):</h4>
+                                    <span>5 минут</span>
+                                    <input type="text" name="price_kart_double_posle14_5" id="">
+                                    <br>
+                                    <span>10 минут</span>
+                                    <input type="text" name="price_kart_double_posle14_10" id="">
+                                    <br>
+                                    <h3>Номер телефона:</h3>
+                                    <input type="tel" name="tel" id="">
+                                    <br>
+                                    <input type="submit" value="Сохранить">
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="tabs-2">
-                    
+
                 </div>
             </div>
         </div>
