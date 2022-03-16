@@ -151,17 +151,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <br>
-                                    <div class="admin__submit">
-                                        <input type="submit" value="Сохранить">
-                                    </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="tabs-2">
-                    
+
                 </div>
             </div>
         </div>
