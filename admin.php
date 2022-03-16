@@ -72,45 +72,45 @@
                                     <h2>Цены:</h2>
                                 </div>
                                 <form action="php/panel.php" method="POST">
-                                    <h3>Цены на прокат:</h3>
-                                    <h4>Прокат карта 6.5 л.с.:</h4>
-                                    <span>5 минут</span>
-                                    <input type="text" name="price_kart_65_5" id="">
-                                    <br>
-                                    <span>10 минут</span>
-                                    <input type="text" name="price_kart_65_10" id="">
-                                    <h4>Прокат карта 9 л.с.:</h4>
-                                    <span>5 минут</span>
-                                    <input type="text" name="price_kart_9_5" id="">
-                                    <br>
-                                    <span>10 минут</span>
-                                    <input type="text" name="price_kart_9_10" id="">
-                                    <h4>Прокат двухместного карта:</h4>
-                                    <h4>- взрослый + ребенок (до 14 лет):</h4>
-                                    <span>5 минут</span>
-                                    <input type="text" name="price_kart_double_do14_5" id="">
-                                    <br>
-                                    <span>10 минут</span>
-                                    <input type="text" name="price_kart_double_do14_10" id="">
-                                    <br>
-                                    <h4>- взрослый + взрослый (старше 14 лет):</h4>
-                                    <span>5 минут</span>
-                                    <input type="text" name="price_kart_double_posle14_5" id="">
-                                    <br>
-                                    <span>10 минут</span>
-                                    <input type="text" name="price_kart_double_posle14_10" id="">
-                                    <br>
-                                    <h3>Номер телефона:</h3>
-                                    <input type="tel" name="tel" id="">
-                                    <br>
-                                    <input type="submit" value="Сохранить">
-                                </form>
+                            <h3>Цены на прокат:</h3>
+                            <h4>Прокат карта 6.5 л.с.:</h4>
+                            <span>5 минут</span>
+                            <input type="text" name="price_kart_65_5" id="">
+                            <br>
+                            <span>10 минут</span>
+                            <input type="text" name="price_kart_65_10" id="">
+                            <h4>Прокат карта 9 л.с.:</h4>
+                            <span>5 минут</span>
+                            <input type="text" name="price_kart_9_5" id="">
+                            <br>
+                            <span>10 минут</span>
+                            <input type="text" name="price_kart_9_10" id="">
+                            <h4>Прокат двухместного карта:</h4>
+                            <h4>- взрослый + ребенок (до 14 лет):</h4>
+                            <span>5 минут</span>
+                            <input type="text" name="price_kart_double_do14_5" id="">
+                            <br>
+                            <span>10 минут</span>
+                            <input type="text" name="price_kart_double_do14_10" id="">
+                            <br>
+                            <h4>- взрослый + взрослый (старше 14 лет):</h4>
+                            <span>5 минут</span>
+                            <input type="text" name="price_kart_double_posle14_5" id="">
+                            <br>
+                            <span>10 минут</span>
+                            <input type="text" name="price_kart_double_posle14_10" id="">
+                            <br>
+                            <h3>Номер телефона:</h3>
+                            <input type="tel" name="tel" id="">
+                            <br>
+                            <input type="submit" value="Сохранить">
+                        </form>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="tabs-2">
-
+                    
                 </div>
             </div>
         </div>
