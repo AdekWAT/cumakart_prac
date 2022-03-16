@@ -78,7 +78,7 @@
                                         </div>
                                         <div class="admin__kart65">
                                             <div class="kart65__title">
-                                                <h4>Прокат карта 6.5 л.с.:</h4>  
+                                                <h4>Прокат карта 6.5 л.с.:</h4>
                                             </div>
                                             <div class="kart65__5">
                                                 <span>5 минут</span>
