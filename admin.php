@@ -47,13 +47,6 @@
             </div>
         </div>
     </header>
-
-
-
-
-
-
-
     <main>
         <div class="content">
             <div id="tabs">
@@ -140,7 +133,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="admin__submit">
+                                    <input type="text" name="id__karts" value="1" style="display: none;">
+                                    <input type="text" name="id__contacts" value="" style="display: none;">
+                                    <div class="price__submit">
                                         <input type="submit" value="Сохранить">
                                     </div>
                                 </form>
@@ -154,7 +149,7 @@
                             <div class="contacts__titleform">
                                 <h2>Контакты:</h2>
                             </div>
-                            <form action="">
+                            <form action="php/panel.php" method="POST">
                                 <div class="contacts__tel">
                                     <div class="tel__title">
                                         <h3>Номер телефона:</h3>
@@ -162,6 +157,19 @@
                                     <div class="tel__input">
                                         <input type="tel" name="tel" id="">
                                     </div>
+                                </div>
+                                <div class="contacts__addr">
+                                    <div class="addr__title">
+                                        <h3>Адрес:</h3>
+                                    </div>
+                                    <div class="addr__input">
+                                        <input type="text" name="addr" id="">
+                                    </div>
+                                </div>
+                                <input type="text" name="id__contacts" value="2" style="display: none;">
+                                <input type="text" name="id__karts" value="" style="display: none;">
+                                <div class="contacts__submit">
+                                    <input type="submit" value="Сохранить">
                                 </div>
                             </form>
                         </div>
